@@ -1,0 +1,14 @@
+body {
+  font-size: 1em;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.bio-requid {
+  list-style-type: lower-alpha;
+}
+
+.brother:focus {
+  outline: none;
+  border-color: gray;
+}
