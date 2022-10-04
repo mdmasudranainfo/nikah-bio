@@ -19,7 +19,7 @@
       <form action="" class="mt-10">
 
         <div class="">
-            <label class="text-lg text-gray-600 block" for="">Name</label>
+            <label class="text-lg text-gray-600 block" for="">Name<span class="text-red-600">*</span></label>
             <input class="px-1 w-6/12 py-1 focus:outline-none border-2 rounded-md" type="text" required>
            
         </div>
@@ -73,12 +73,91 @@
             <div class="">
                 <label class="text-lg text-gray-600 block" for="">Height<span class="text-red-600">*</span></label>
             <div class="grid grid-cols-2 gap-2">
-                <input class="px-1 w-full py-1 focus:outline-none border-2 rounded-md" type="text" required placeholder="Foot Only">
-            <input class="px-1 w-full py-1 focus:outline-none border-2 rounded-md" type="text" required placeholder="Inch only">
+                <input class="px-1 w-full py-1 focus:outline-none border-2 rounded-md" type="number" required placeholder="Foot Only">
+            <input class="px-1 w-full py-1 focus:outline-none border-2 rounded-md" type="number" required placeholder="Inch only">
             </div>
 
             </div>
         </div>
+
+        <div class=" mt-2 grid grid-cols-2 gap-2">
+            <div class="">
+                <label class="text-lg text-gray-600 block " for="">Weight<span class="text-red-600">*</span></label>
+            <input class="px-1 w-full py-1 focus:outline-none border-2 rounded-md" type="number" placeholder="KG only" required>
+
+            </div>
+
+            <div class="">
+                <label class="text-lg text-gray-600 block" for="">Blood Group<span class="text-red-600">*</span></label>
+            <input class="px-1 w-full py-1 focus:outline-none border-2 rounded-md" type="text" required>
+
+            </div>
+        </div>
+
+        <div class=" mt-2 grid grid-cols-2 gap-2">
+            <div class="">
+                <label class="text-lg text-gray-600 block " for="">Complexion<span class="text-red-600">*</span></label>
+            <input class="px-1 w-full py-1 focus:outline-none border-2 rounded-md" type="text" required>
+
+            </div>
+
+            <div class="">
+                <label class="text-lg text-gray-600 block" for="">Majhab<span class="text-red-600">*</span></label>
+            <input class="px-1 w-full py-1 focus:outline-none border-2 rounded-md" type="text" required>
+
+            </div>
+        </div>
+
+        <div class=" mt-2 grid grid-cols-2 gap-2">
+            <div class="">
+                <label class="text-lg text-gray-600 block " for="">Educational Qualification<span class="text-red-600">*</span></label>
+            <input class="px-1 w-full py-1 focus:outline-none border-2 rounded-md" type="text" required>
+
+            </div>
+
+            <div class="">
+                <label class="text-lg text-gray-600 block" for="">Occupation<span class="text-red-600">*</span></label>
+            <input class="px-1 w-full py-1 focus:outline-none border-2 rounded-md" type="text" required>
+
+            </div>
+        </div>
+
+
+        <div class=" mt-2 grid grid-cols-2 gap-2 mb-4">
+            <div class="">
+                <label class="text-lg text-gray-600 block " for="">The political point of view
+                    </label>
+            <input class="px-1 w-full py-1 focus:outline-none border-2 rounded-md" type="text" required>
+
+            </div>
+
+            <div class="">
+                <label class="text-lg text-gray-600 block" for="">Maritual Status
+                    <span class="text-red-600">*</span></label>
+                   
+                    <select class="px-1 w-full py-1 focus:outline-none border-2 rounded-md">
+                        <option value="">Single</option>
+                        <option value="">Married</option>
+                    </select>
+
+            </div>
+         
+        </div>
+        <div class="">
+            <label class="text-lg text-gray-600 block" for="">Maritual Status
+                <span class="text-red-600">*</span></label>
+            <textarea class="px-1 w-full py-1 focus:outline-none border-2 rounded-md" name="" id="" rows="5" placeholder="Write something about you, not more then 250 words
+            " required></textarea>
+        </div>
+
+        <div class="from-btn text-center mt-4">
+            <a href="./parsonalInfo.html">
+              <button class="bg-gray-700 text-white px-5 py-2 rounded">
+                Next
+              </button></a
+            >
+          </div>
+        
 
     
        
